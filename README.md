@@ -1,12 +1,12 @@
 <div align="center">
 
-# Hi, I'm Justin 👋
+# Hi, I’m Justin 👋
 
-### IT Professional · Hands-on IT Lab Portfolio
-
-**IT Support &nbsp; / &nbsp; Windows Administration &nbsp; / &nbsp; Azure Networking**
+### Cybersecurity Professional | Hands-On Security Labs | AI-Powered Security Exploration
 
 [Explore My Projects](#featured-projects) · [Software & Technologies](#software--technologies) · [Connect on LinkedIn](https://www.linkedin.com/in/justin-mccuff-039b5a19b/)
+
+**Learning by doing. Testing with purpose. Documenting what matters.**
 
 </div>
 
@@ -14,13 +14,14 @@
 
 ## About Me
 
-I'm an IT professional with a portfolio of hands-on labs in help desk operations, Windows administration, and Microsoft Azure. My projects document how I configure systems, manage support workflows, and explore network traffic in virtual environments.
+I work in cybersecurity and build practical experience by deploying, testing, and documenting security tools. From Azure networking and Active Directory to AI-assisted security platforms, I focus on understanding how systems work, where risks emerge, and how to strengthen defenses.
 
-This portfolio brings together step-by-step walkthroughs and screenshots covering:
-
-- **IT support:** osTicket configuration, service-level agreements, and ticket resolution workflows.
-- **Systems administration:** Active Directory Domain Services, user accounts, and remote access.
-- **Cloud networking:** Azure virtual machines, virtual networks, network security groups, and traffic inspection.
+- 🛡️ Building hands-on cybersecurity labs and exploring defensive techniques
+- 🤖 Deploying and evaluating AI-powered security tools
+- 🔐 Exploring identity security, network analysis, and vulnerability assessment
+- ☁️ Working with Azure, Windows, Linux, and Active Directory
+- 📝 Sharing lab walkthroughs, testing observations, and lessons learned
+- 🌱 Expanding into threat detection, security monitoring, and incident response
 
 ## Featured Projects
 
@@ -28,11 +29,20 @@ This portfolio brings together step-by-step walkthroughs and screenshots coverin
 
 [**View the project →**](https://github.com/justinmccuff/configure-ad)
 
-A Windows domain lab using Azure-hosted Windows Server 2022 and Windows 10 virtual machines.
+**Spotlight project · Windows identity & administration**
 
-- Documented Active Directory Domain Services installation and configuration.
-- Created organizational units and user accounts to explore directory administration.
-- Covered Remote Desktop access for non-administrative users and additional user creation.
+A documented Windows domain lab using an Azure-hosted Windows Server 2022 domain controller (`DC-1`) and a Windows client (`Client-1`). The original lab used Windows 10.
+
+**What the project covers**
+
+- **Directory services:** AD DS installation and directory administration in a virtual environment.
+- **Account organization:** `_EMPLOYEES` and `_ADMINS` organizational units and test-user creation.
+- **Remote access:** Configuration walkthroughs for non-administrative access to a Windows client.
+- **Technical documentation:** Screenshots and step-by-step explanations of the lab workflow.
+
+**Why it matters:** These exercises connect core IT support tasks—account management and remote access—with the Windows infrastructure behind them.
+
+**Documentation improvements prepared:** An expanded guide adds domain-controller promotion, client DNS setup, domain join, least-privilege RDP guidance, and a validation checklist. These additions still need a lab rerun and evidence before being presented as verified results.
 
 **Technologies:** `Microsoft Azure` `Windows Server 2022` `Active Directory DS` `PowerShell` `Remote Desktop`
 
@@ -70,13 +80,24 @@ A walkthrough of support tickets from intake through assignment, communication, 
 
 [**View the project →**](https://github.com/justinmccuff/network-protocols)
 
-A networking lab exploring traffic between Azure virtual machines using Wireshark and network security groups.
+**Featured lab · Packet analysis & network troubleshooting**
 
-- Documented Azure resource and virtual machine setup.
-- Explored packet capture and protocol inspection with Wireshark.
-- Examined network security group configuration and traffic between Windows and Ubuntu environments.
+A documented Azure lab using Windows and Ubuntu virtual machines to explore network behavior with Wireshark.
 
-**Technologies:** `Microsoft Azure` `Wireshark` `Network Security Groups` `Windows 10` `Ubuntu Server`
+**What the original project covers**
+
+- **Virtual infrastructure:** Azure resource and VM setup with Windows and Ubuntu.
+- **Connectivity:** ICMP requests and replies generated with `ping`.
+- **Network services:** DHCP renewal and DNS lookups using `ipconfig` and `nslookup`.
+- **Remote access:** Inspection of RDP-related traffic on the Windows VM.
+
+**Why it matters:** These exercises connect everyday troubleshooting commands with the packets behind them, helping distinguish addressing, name-resolution, and connectivity issues.
+
+**Documentation improvements prepared:** An expanded guide adds a controlled NSG deny/recovery test, SSH and HTTP/S exercises, precise display filters, and packet-capture safety guidance. The additional exercises remain unverified until the lab is rerun and results are recorded.
+
+**Technologies:** `Microsoft Azure` `Wireshark` `Windows` `Ubuntu Server` `ICMP` `DHCP` `DNS` `RDP`
+
+**Proposed extensions:** `Network Security Groups` `SSH` `HTTP/S`
 
 ## Software & Technologies
 
